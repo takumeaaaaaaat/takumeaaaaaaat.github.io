@@ -1,0 +1,252 @@
+<style>
+.minesweeper-section {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  padding: 54px 18px 106px 61px;
+}
+
+.content-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1201px;
+  flex-direction: column;
+  color: #91ed36;
+  text-align: center;
+  font: 400 48px Inter, sans-serif;
+}
+
+.main-title {
+  font-size: 60px;
+  align-self: center;
+  border: 1px solid #000;
+}
+
+.game-description {
+  align-self: start;
+  margin-top: 132px;
+  border: 1px solid #000;
+}
+
+.subtitle {
+  align-self: end;
+  margin-top: 122px;
+  border: 1px solid #000;
+}
+
+.image-container {
+  align-self: stretch;
+  margin-top: 74px;
+  width: 100%;
+}
+
+.image-wrapper {
+  gap: 20px;
+  display: flex;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 35%;
+  margin-left: 0;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 65%;
+  margin-left: 20px;
+}
+
+.content-box {
+  margin-top: 102px;
+  flex-grow: 1;
+}
+
+.inner-wrapper {
+  gap: 20px;
+  display: flex;
+}
+
+.inner-left-column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 42%;
+  margin-left: 0;
+}
+
+.inner-right-column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 58%;
+  margin-left: 20px;
+}
+
+.circle-text {
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  align-self: stretch;
+  color: #000;
+  white-space: nowrap;
+  text-align: center;
+  margin: auto -44px auto 0;
+  padding: 96px 62px;
+  font: 400 48px Inter, sans-serif;
+}
+
+.bottom-container {
+  width: 100%;
+  max-width: 1130px;
+  margin: 62px 0 0 38px;
+}
+
+.bottom-wrapper {
+  gap: 20px;
+  display: flex;
+}
+
+.achievement-text {
+  color: #de4141;
+  text-align: center;
+  margin-top: 79px;
+  font: 400 48px Inter, sans-serif;
+  border: 1px solid rgba(250, 241, 9, 0.89);
+}
+
+@media (max-width: 991px) {
+  .minesweeper-section {
+    padding: 0 0 100px 20px;
+  }
+
+  .content-wrapper {
+    max-width: 100%;
+    font-size: 40px;
+  }
+
+  .main-title {
+    max-width: 100%;
+    font-size: 40px;
+  }
+
+  .game-description {
+    max-width: 100%;
+    margin-top: 40px;
+    font-size: 40px;
+  }
+
+  .subtitle {
+    max-width: 100%;
+    margin-top: 40px;
+    font-size: 40px;
+  }
+
+  .image-container {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .image-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .left-column,
+  .right-column,
+  .inner-left-column,
+  .inner-right-column {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .content-box {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .inner-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .circle-text {
+    font-size: 40px;
+    margin-top: 40px;
+    white-space: initial;
+    padding: 0 20px;
+  }
+
+  .bottom-container {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .bottom-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .achievement-text {
+    margin-top: 40px;
+    font-size: 40px;
+  }
+}
+</style>
+
+<section class="minesweeper-section">
+  <div class="content-wrapper">
+    <h1 class="main-title">マインスイーパー</h1>
+    <p class="game-description">
+      マインスイーパーとは
+      <br />
+      <span>周りの数字を頼りに地雷を探すゲーム</span>
+      <br />
+      <span>地雷には旗を立てよう！</span>
+      <br />
+      <span>地雷を全部回避すればクリア</span>
+      <br />
+      <span>Google検索でできるからやってみてね〜</span>
+      <br />
+      <span>https://x.gd/pof69</span>
+    </p>
+    <h2 class="subtitle">マインスイーパー実際にやってみた</h2>
+  </div>
+  <div class="image-container">
+    <div class="image-wrapper">
+      <div class="left-column">
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/910fe6b6bc7333e899a7b660190ae7e7256b399ad9702bfad7a532f6b6029c1c?placeholderIfAbsent=true&apiKey=b8f8370ff4374866939d7a3bc0c07472" class="img" alt="Minesweeper game screenshot" />
+      </div>
+      <div class="right-column">
+        <div class="content-box">
+          <div class="inner-wrapper">
+            <div class="inner-left-column">
+              <div class="circle-text">何を四天王</div>
+            </div>
+            <div class="inner-right-column">
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/07e3c313f8df3daff0ac66ef91e1ca28fb2dadd785bb7823d32128f25627e7a7?placeholderIfAbsent=true&apiKey=b8f8370ff4374866939d7a3bc0c07472" class="img-2" alt="Minesweeper game progress" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-container">
+    <div class="bottom-wrapper">
+      <div class="left-column">
+        <p class="achievement-text">最速記録達成！</p>
+      </div>
+      <div class="right-column">
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1180d67413b87748af4ee9f9fb8fd4d0b4359c1e4fbcb29367fa106ffe84255c?placeholderIfAbsent=true&apiKey=b8f8370ff4374866939d7a3bc0c07472" class="img-3" alt="Minesweeper game completion" />
+      </div>
+    </div>
+  </div>
+</section>
